@@ -20,9 +20,9 @@ If you need help with this integration, please contact [support@roleup.io](mailt
 1. Create a user acocunt and organization in RoleUp if you have not already done so.
 2. Add the PagerDuty integration from the **Integrations** section of RoleUp, or by going [here](https://app.roleup.io/orgs/_/add-integration?integration=pagerduty). The only required field is your PagerDuty subdomain, visible in your PagerDuty URL like so: **https://{subdomain}.pagerduty.com**
 3. Click **Add** to add the PagerDuty integration
-3. All of your users and teams within PagerDuty will automatically sync into RoleUp when the integration is created, and will continue to sync periodically afterwards.
-4. In the **Identities** section of RoleUp, the PagerDuty users will be automatically merged into Identities with accounts that share the same email.
-5. If you have more than one PagerDuty subdomain to add, you can repeat the above process for any additional subdomains.
+4. All of your users and teams within PagerDuty will automatically sync into RoleUp when the integration is created, and will continue to sync periodically afterwards.
+5. In the **Identities** section of RoleUp, the PagerDuty users will be automatically merged into Identities with accounts that share the same email.
+6. If you have more than one PagerDuty subdomain to add, you can repeat the above process for any additional subdomains.
 
 # How to Uninstall
 
