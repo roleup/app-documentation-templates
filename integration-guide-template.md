@@ -7,7 +7,7 @@
 - Once linked with RoleUp, new users can be added to PagerDuty through the RoleUp UI while they are simultaneously added to other services during onboarding
 - If users are added directly within PagerDuty, those changes will be detected and synced back to RoleUp for tracking.
 - When the time comes to offboard a team member, a single click in the RoleUp interface will disable or remove all accounts associated with that user.
-- Offboarding PagerDuty users can have effects on on any open incidents assigned to them. To configure these effects [https://support.pagerduty.com/docs/offboarding#section-configure-offboarding-settings](read more about offboarding actions in PagerDuty).
+- Offboarding PagerDuty users can have effects on on any open incidents assigned to them. To configure these effects [read more about offboarding actions in PagerDuty](https://support.pagerduty.com/docs/offboarding#section-configure-offboarding-settings).
 
 # Requirements
 - PagerDuty integrations require an Admin base role for account authorization. If you do not have this role, please reach out to an Admin or Account Owner within your organization to configure the integration.
@@ -16,11 +16,11 @@
 If you need help with this integration, please contact [support@roleup.io](mailto:support@roleup.io). 
 
 Additionally, here is some relevant PagerDuty documentation on user management. 
-- [https://support.pagerduty.com/docs/users](Adding and Removing Users)
-- [https://support.pagerduty.com/docs/user-roles](User Roles)
-- [https://support.pagerduty.com/docs/advanced-permissions](Advanced Permissions)
-- [https://support.pagerduty.com/docs/teams](Teams)
-- [https://support.pagerduty.com/docs/offboarding](Offboarding Users)
+- [Adding and Removing Users](https://support.pagerduty.com/docs/users)
+- [User Roles](https://support.pagerduty.com/docs/user-roles)
+- [Advanced Permissions](https://support.pagerduty.com/docs/advanced-permissions)
+- [Teams](https://support.pagerduty.com/docs/teams)
+- [Offboarding Users](https://support.pagerduty.com/docs/offboarding)
 
 # Integration Walkthrough
 ## In RoleUp
@@ -31,9 +31,6 @@ Additionally, here is some relevant PagerDuty documentation on user management.
 4. All of your users and teams within PagerDuty will automatically sync into RoleUp when the integration is created, and will continue to sync periodically afterwards.
 5. In the **Identities** section of RoleUp, the PagerDuty users will be automatically merged into Identities with accounts that share the same email.
 6. If you have more than one PagerDuty subdomain to add, you can repeat the above process for any additional subdomains.
-
-### Notes
-- PagerDuty team and role management is not currently supported via RoleUp, but will be added in the future. 
 
 # How to Uninstall
 
